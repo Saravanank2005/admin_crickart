@@ -57,7 +57,7 @@ const ListProduct = () => {
                         <div key={product._id} className="product-card">
                             <div className="product-image">
                                 <img 
-                                    src={`http://localhost:5000/${product.image}`} 
+                                    src={`https://backend-crickart.onrender.com/${product.image}`} 
                                     alt={product.name}
                                     onError={(e) => {
                                         e.target.src = '/placeholder.png';
