@@ -1,8 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
 import { Link, useLocation } from 'react-router-dom'
-import add_product_icon from '../../assets/Product_cart.png'
-import list_product_icon from '../../assets/Product_list_icon.png'
 
 const Sidebar = () => {
   const location = useLocation();
