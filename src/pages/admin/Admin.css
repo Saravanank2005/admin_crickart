@@ -1,0 +1,22 @@
+.admin-layout {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.admin-container {
+  display: flex;
+  padding-top: 64px; /* Height of navbar */
+}
+
+.admin-main {
+  flex: 1;
+  padding: 24px;
+  margin-left: 250px; /* Width of sidebar */
+}
+
+@media (max-width: 768px) {
+  .admin-main {
+    margin-left: 0;
+    padding: 16px;
+  }
+}
