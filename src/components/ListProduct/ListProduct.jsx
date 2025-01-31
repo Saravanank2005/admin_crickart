@@ -14,7 +14,7 @@ const ListProduct = () => {
 
     const fetchProducts = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/products');
+            const response = await axios.get('https://backend-crickart.onrender.com/api/products');
             console.log('Fetched products:', response.data); // For debugging
             setProducts(response.data);
             setLoading(false);

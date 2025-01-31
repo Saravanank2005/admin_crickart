@@ -49,7 +49,7 @@ const AddProduct = () => {
         }
       });
 
-      await axios.post('http://localhost:5000/api/products', formDataToSend, {
+      await axios.post('https://backend-crickart.onrender.com/api/products', formDataToSend, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
