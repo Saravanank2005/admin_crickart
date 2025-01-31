@@ -29,7 +29,7 @@ const ListProduct = () => {
         if (!window.confirm('Are you sure you want to delete this product?')) return;
 
         try {
-            await axios.delete(`http://localhost:5000/api/products/${id}`);
+            await axios.delete(`https://backend-crickart.onrender.com/api/products/${id}`);
             fetchProducts(); // Refresh list after delete
         } catch (error) {
             setError('Error deleting product');
